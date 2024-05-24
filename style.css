@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --ag:#fff;
+}
+ ul li{
+    list-style: none;
+ }
+ a{ text-decoration: none;}
+ body{
+    width: 100vw;
+ }
+.main_header{
+   
+    background-color: rgba(0, 0, 0,0.5);
+    width: 100vw;
+  background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-image: url('./image/image\ 1.png');
+}
+.header_head_container{
+   padding-top: 49px;
+    max-width: 1190px;
+    display: flex;
+    margin: 0 auto;
+   justify-content: space-between;
+    align-items: center;
+ 
+}
+nav ul{
+    display: flex;
+    gap: 60px;
+    
+}
+
+ul a{
+    color: white;
+}
+
+.header_head_icons{
+    width: 18vw;
+    display: flex;
+justify-content: space-between;
+
+}
+.header_head_icons input{
+    background: none;
+    outline: none;
+    border: none;
+}
+.inp_icon{
+    display: flex;
+}
+
+.bg{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100vw;
+}
+.bell{
+    margin-left: 58px;
+    margin-right: 28px;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.header_middle_container{
+    padding-top: 152px;
+
+}
+.header_middle_container h1{
+font-family: Rubik One;
+font-size: 54px;
+font-weight: 400;
+line-height: 66.85px;
+color: var(--ag);
+}
+.header_middle_container .first_list{
+    display: flex;
+margin-top:21px ;
+    align-items: center;
+    gap: 13px;
+}
+.first_list li:not(:last-child){
+    border-right: 1px solid #fff;
+    padding-right: 13px;
+    
+}
+.first_list li{
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 300;
+line-height: 21.09px;
+color: var(--ag);
+
+}
+.header_middle_container p{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 300;
+line-height: 22px;
+color: var(--ag);
+width: 445px ;
+margin-top: 35px;
+
+}
+
+main{
+    
+    background-color: rgba(13, 13, 13, 1);
+    
+}
+.first_section_head_second button {
+display: block;
+margin-left: auto;
+background: none;
+border: none;
+outline: none;
+color: rgba(196, 196, 196, 1);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 18.75px;
+padding-top: 45px;
+padding-bottom: 40px;
+
+
+}
+.first_section_head_first{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.first_section_head_first h2{
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 37.5px;
+   color: #fff;
+
+}
+main{
+padding-top: 55px;
+}
+.first_section_main{
+    display: grid;
+    max-width: 1170px;
+    gap: 48px;
+    grid-template-columns: repeat(auto-fill,minmax(358px,1fr));
+}
+.first_section_card{
+    min-width: 358px;
+}
+.first_section_card video{
+    width: 100%;
+
+}
+.first_section_card p{
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 800;
+line-height: 21.09px;
+color: #fff;
+margin-top: 23px;
+
+}
+.second_section_middle{
+    display: flex;
+    width: 1250px;
+  justify-content: space-between;
+    align-items: center;
+}
+.second_section_cards{
+    overflow-x: hidden;
+display: flex;
+gap: 37px;
+align-items: center;
+justify-content: center;
+
+}
+.popular_Card{
+    min-width: 265px;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+}
+.popular_Card img{
+    width: 100%;
+}
+.second_section_cards p{
+    color: #fff;
+    margin-top: 17px;
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 800;
+line-height: 21.09px;
+
+
+}
+.button{
+    display: flex;
+}
+.buttons button:first-child{
+    background-color: rgba(207, 0, 15, 0.9);
+    color: #fff;
+    padding: 14px 37px 15px 62px;
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.09px;
+border: none;
+
+border-radius: 99px;
+margin-top: 51px;
+
+}
+.buttons button:last-child{
+    background: none;
+    color: rgba(192, 5, 17, 1);
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.09px;
+padding: 15px 35px;
+border-radius: 99px;
+margin-left: 47px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.second_list{
+    margin-top: 28px;
+    width: 370px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.second_list li{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+
+}
+.second_list li p{
+    width: 102px;
+    height: 17px;
+    margin-left: 12px;
+}
+
+.second_list svg:not(:last-child){
+    width: 18px;
+    height: 15px;
+}
+.second_list svg:last-child{
+    width: 6px !important;
+    height: 6px !important;
+}
+.load{
+    background-color:  rgba(192, 5, 17, 1);
+    border-radius:99px ;
+    color: var(--ag);
+    padding: 11px 21px;
+    border: none;
+    font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 16.94px;
+
+margin-top: 90px;
+}
+
+
+.login_header{
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 1);
+}
+.login_header h1{
+    color: #fff;
+    font-family: Roboto;
+font-size: 26px;
+font-weight: 700;
+line-height: 30.47px;
+
+
+}
+.login_header p{
+    color: #fff;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 18.75px;
+
+
+}
+.input input{
+    margin-top: 32px;
+    width: 330px;
+    color: #fff;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(196, 196, 196, 0.61);
+}
+.password input{
+    margin-top: 32px;
+    width: 330px;
+    color: #fff;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(196, 196, 196, 0.61);
+}
+.login_header button{
+    border-radius: 90px;
+    border: 1px solid #fff;
+background: none;
+color: red;
+padding: 10px 105px;
+background-color:  rgba(217, 217, 217, 0.16);
+
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.09px;
+text-align: left;
+
+}
+.ancor{
+  width: 330px;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 188px;
+}
+.login_header a{
+ 
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.41px;
+
+display: block;
+color: rgba(139, 139, 139, 1);
+
+}
+.body{
+    background-color: rgba(0, 0, 0, 1);
+}
+.reg_header{
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 1);
+    margin-bottom: 137px;
+}
+.reg_header h1{
+    margin-top: 121px;
+    color: #fff;
+    font-family: Roboto;
+font-size: 26px;
+font-weight: 700;
+line-height: 30.47px;
+margin-bottom: 82px;
+
+
+}
+.reg_header p{
+    color: #fff;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 18.75px;
+
+
+}
+.name input{
+    margin-top: 32px;
+    margin-bottom: 23px;
+    width: 330px;
+    color: #fff;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(196, 196, 196, 0.61);
+}
+.inputt input{
+    margin-top: 32px;
+    margin-bottom: 23px;
+    width: 330px;
+    color: #fff;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(196, 196, 196, 0.61);
+}
+.passwordd input{
+   margin-top: 32px;
+   margin-bottom: 23px;
+    width: 330px;
+    color: #fff;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(196, 196, 196, 0.61);
+}
+.re-type_password input{
+    margin-top: 32px;
+    margin-bottom: 23px;
+    width: 330px;
+    color: #fff;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(196, 196, 196, 0.61);
+}
+.reg_header .sign{
+    border-radius: 90px;
+    border: 1px solid #fff;
+background: none;
+color: #fff;
+padding: 10px 105px;
+background-color: rgba(192, 5, 17, 1);
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.09px;
+margin-top: 160px;
+
+}
+
+.reg_log img{
+    margin-top: 135px;
+}
+.reg_log{
+
+    background-image: url('./image/back1.jpg');
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.All_buttons{
+    margin-top: 457px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-bottom: 137px;
+}
+.All_buttons .reg-log-sign{
+    width: 255px;
+    height: 40px;
+    border-radius: 90px;
+    border: 1px solid #fff;
+background: none;
+color: #fff;
+padding: 10px 97px;
+background-color: rgba(192, 5, 17, 1);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 21.09px;
+
+}
+.All_buttons .reg-log-login{
+    width: 255px;
+    height: 40px;
+    border-radius: 90px;
+    border: 1px solid #fff;
+background: none;
+color: red;
+padding: 10px 97px;
+background-color:  rgba(217, 217, 217, 0.16);
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.09px;
+}
