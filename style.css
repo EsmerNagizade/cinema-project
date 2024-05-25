@@ -81,6 +81,7 @@ line-height: 66.85px;
 color: var(--ag);
 }
 .header_middle_container .first_list{
+    width: 310px;
     display: flex;
 margin-top:21px ;
     align-items: center;
@@ -171,11 +172,12 @@ margin-top: 23px;
 }
 .second_section_middle{
     display: flex;
-    width: 1250px;
-  justify-content: space-between;
+gap: 28px;
+justify-content: space-between;
     align-items: center;
 }
 .second_section_cards{
+    width: 1300px;
     overflow-x: hidden;
 display: flex;
 gap: 37px;
@@ -233,33 +235,41 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .second_list{
     margin-top: 28px;
-    width: 370px;
+    width: 360px;
     display: flex;
    align-items: center;
    justify-content: center;
 }
-.second_list li{
-    width: 100%;
+/* .second_list .list1{
     display: flex;
-    flex-direction: row;
+
     align-items: center;
-   
+   justify-content: center; */
+
+.second_list li{
+  
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
 
 }
 .second_list li p{
     width: 102px;
-    height: 17px;
-    margin-left: 12px;
+padding-left: 12px;
+
 }
 
-.second_list svg:not(:last-child){
+/* .second_list svg:not(:last-child){
     width: 18px;
     height: 15px;
 }
 .second_list svg:last-child{
     width: 6px !important;
     height: 6px !important;
-}
+} */
 .load{
     background-color:  rgba(192, 5, 17, 1);
     border-radius:99px ;
@@ -541,4 +551,14 @@ border-radius: 80px;
 }
 .foot_imgs img{
     width: 100%;
+}
+.first_section_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+#action{
+    transition: 1s;
+    overflow-x: hidden;
 }
