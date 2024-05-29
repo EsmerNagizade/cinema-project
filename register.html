@@ -16,28 +16,32 @@
         <h1>
             Sign Up
         </h1>
-              
-        <div class="name">
-            <p>Name</p>
-            <input type="text">
-        </div>
-        <div class="inputt">
-            <p>Email</p>
-            <input type="email">
-        </div>
-       <div class="passwordd">
-        <p>password</p>
-        <input type="password">
-       </div>
-       <div class="re-type_password">
-        <p>Re-type password</p>
-        <input type="password">
-       </div>
+              <form onsubmit="funk(event)">
+
+                  <div class="name">
+                      <p>Name</p>
+                      <input required type="text" class="name" >
+                  </div>
+                  <div class="inputt">
+                      <p>Email</p>
+                      <input required type="email" class="email">
+                  </div>
+                 <div class="passwordd" >
+                  <p>password</p>
+                  <input required type="password" class="psw">
+                 </div>
+                 <div class="re-type_password" >
+                  <p>Re-type password</p>
+                  <input required type="password" class="re_psw">
+                 </div>
+              </form>
     
    
-     <button class="sign">
+     <button class="sign" type="submit">
    Sign Up
      </button>
     </header>
+    <script src="./register.js"></script>
+    <script src="./data.js"></script>
 </body>
 </html>

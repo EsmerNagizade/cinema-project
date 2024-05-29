@@ -3,7 +3,7 @@ let popular = document.querySelector('#popular')
 let best = document.querySelector('#best')
 let action = document.querySelector('#action')
 let img='https://image.tmdb.org/t/p/w500'
-
+let bildiris=document.querySelector('.bildiris')
 let popularLeft=document.querySelector('.popular_left')
 let popularRight=document.querySelector('.popular_right')
 let bestleft=document.querySelector('.bestleft')
@@ -192,4 +192,7 @@ actionRight.addEventListener('click',()=>{
         actioncount=0
         slideraction()
     }
+})
+bildiris.addEventListener('click',()=>{
+    window.location.href='./reglog.html'
 })
