@@ -562,3 +562,7 @@ border-radius: 80px;
     transition: 1s;
     overflow-x: hidden;
 }
+.cixis{
+    color: #fff;
+    display: none;
+}
